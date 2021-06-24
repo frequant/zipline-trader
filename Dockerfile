@@ -62,7 +62,10 @@ RUN pip install 'numpy>=1.11.1,<2.0.0' \
   && make install \
   && pip install TA-Lib \
   && pip install matplotlib \
-  && pip install jupyter
+  && pip install jupyter \
+  && pip install jupyterlab \
+  && pip install jupyterlab_darkside_ui \
+  && pip install git+https://github.com/shlomikushchi/alphalens#egg=alphalens
 
 #
 # This is then only file we need from source to remain in the

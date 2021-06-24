@@ -1,0 +1,6 @@
+alpaca:
+  key_id: ""
+  secret: ""
+  base_url: https://paper-api.alpaca.markets
+  universe: SP500
+  custom_asset_list: AAPL, TSLA, GOOG
